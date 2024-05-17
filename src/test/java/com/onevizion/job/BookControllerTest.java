@@ -1,7 +1,7 @@
-package com.onevision.job;
+package com.onevizion.job;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.onevision.job.model.Book;
+import com.onevizion.job.model.Book;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

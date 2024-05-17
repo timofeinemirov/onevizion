@@ -11,8 +11,8 @@ public class BookSearchResult {
 
     private Integer count;
 
-    public BookSearchResult(String author, Integer matches) {
+    public BookSearchResult(String author, Integer count) {
         this.author = author;
-        this.count = matches;
+        this.count = count;
     }
 }

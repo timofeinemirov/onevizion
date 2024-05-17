@@ -5,6 +5,7 @@ import com.onevizion.job.model.BookGroup;
 import com.onevizion.job.model.BookSearchResult;
 import com.onevizion.job.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -22,6 +23,7 @@ public class BookController {
     }
 
     @PostMapping
+    @ResponseStatus(code = HttpStatus.CREATED)
     public Book create(@RequestBody Book book) {
         return bookService.create(book);
     }

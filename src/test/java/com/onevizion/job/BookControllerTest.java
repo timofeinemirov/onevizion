@@ -30,7 +30,6 @@ class BookControllerTest {
     void whenCreateBook_thenStatus200() throws Exception {
 
         Book book = new Book();
-        book.setId(100);
         book.setTitle("Roadside Picnic");
         book.setAuthor("Arkady Strugatsky");
         book.setDescription("Red Schuhart is a stalker, one of those young rebels who are compelled...");
@@ -42,7 +41,7 @@ class BookControllerTest {
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(json)
                 )
-                .andExpect(status().isOk());
+                .andExpect(status().isCreated());
     }
 
     @Test
@@ -52,13 +51,15 @@ class BookControllerTest {
     }
 
     @Test
-    void findAllGrouped() {
-
+    void givenBooks_whenGetGrouped_thenStatus200() throws Exception {
+        mockMvc.perform(get("/books/by-author"))
+                .andExpect(status().isOk());
     }
 
     @Test
-    void searchByTitle() {
-
+    void givenBooks_whenSearch_thenStatus200() throws Exception {
+        mockMvc.perform(get("/books/search?title=a"))
+                .andExpect(status().isOk());
     }
 
 }

@@ -1,0 +1,16 @@
+INSERT INTO book (title, author, description) VALUES('A Hero of Our Time', 'Mikhail Lermontov', 'A Hero of Our Time is a novel by Mikhail Lermontov');
+INSERT INTO book (title, author, description) VALUES('Eugene Onegin', 'Alexander Pushkin', 'Eugene Onegin, A Novel in Verse is a novel in verse written by Alexander Pushkin');
+INSERT INTO book (title, author, description) VALUES('Lolita', 'Vladimir Nabokov', 'Lolita is a 1955 novel written by Russian-American novelist Vladimir Nabokov that addresses the controversial subject of hebephilia');
+INSERT INTO book (title, author, description) VALUES('The Idiot', 'F. Dostoevsky', 'The Idiot is a novel by the 19th-century Russian author Fyodor Dostoevsky');
+INSERT INTO book (title, author, description) VALUES('Fathers and Sons', 'Ivan Turgenev', 'Fathers and Sons. Fathers and Sons, also translated more literally as Fathers and Children...');
+INSERT INTO book (title, author, description) VALUES('The Master and Margarita', 'Mikhail Bulgakov', 'The Master and Margarita is a novel by Soviet writer Mikhail Bulgakov, written in the Soviet Union between 1928 and 1940');
+INSERT INTO book (title, author, description) VALUES('Heart of a Dog', 'Mikhail Bulgakov', 'Heart of a Dog is a novella by Russian author Mikhail Bulgakov');
+INSERT INTO book (title, author, description) VALUES('Oblomov', 'Ivan Goncharov', 'Oblomov is the second novel by Russian writer Ivan Goncharov, first published in 1859');
+INSERT INTO book (title, author, description) VALUES('And Quiet Flows the Don', 'Mikhail Sholokhov', 'And Quiet Flows the Don is a novel in four volumes by Russian writer Mikhail Sholokhov');
+INSERT INTO book (title, author, description) VALUES('Doctor Zhivago', 'Boris Pasternak', 'Doctor Zhivago is a novel by Boris Pasternak, first published in 1957 in Italy');
+INSERT INTO book (title, author, description) VALUES('Day of the Oprichnik', 'Vladimir Sorokin', 'Something often misunderstood by Western readers is how the past informs Russia’s present;');
+INSERT INTO book (title, author, description) VALUES('The Time: Night', 'Lyudmila Petrushevskaya', 'This intense and powerful story is presented as a diary or journal found after the death of Anna Andrianovna...');
+INSERT INTO book (title, author, description) VALUES('The Death of Ivan Ilyich', 'L. Tolstoy', 'There’s something primal and universal in this story of a successful and respected government official...');
+INSERT INTO book (title, author, description) VALUES('Uncle Vanya', 'Anton Chekov', 'A play and not a novel, and yet reading Chekhov''s "Uncle Vanya" is almost as good as watching it performed');
+INSERT INTO book (title, author, description) VALUES('Mother', 'Maxim Gorky', 'Hindsight is 20/20, as the saying goes. In 1905 there was an uprising and attempted revolution in Russia that didn’t quite succeed');
+INSERT INTO book (title, author, description) VALUES('One Day in the Life of Ivan Denisovich', 'Aleksandr Solzhenitsyn', 'First published in the Soviet journal Novy Mir in 1962, One Day in the Life of Ivan Denisovich stands as a classic of contemporary literature');

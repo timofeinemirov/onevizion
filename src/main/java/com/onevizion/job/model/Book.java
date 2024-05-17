@@ -7,6 +7,11 @@ import lombok.Setter;
 @Setter
 public class Book {
 
+    public static final String ID = "id";
+    public static final String TITLE = "title";
+    public static final String AUTHOR = "author";
+    public static final String DESCRIPTION = "description";
+
     private Integer id;
 
     private String title;
